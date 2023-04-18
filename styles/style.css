@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Manrope", sans-serif;
+  font-size: 62.5%;
+  color: hsl(193deg, 38%, 86%);
+}
+
+body {
+  background-color: hsl(218deg, 23%, 16%);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: hsl(217deg, 19%, 24%);
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  max-width: 600px;
+  width: auto;
+  height: auto;
+  margin-top: 50px;
+  padding: 15px;
+  box-shadow: rgba(101, 101, 101, 0.5);
+  border-radius: 10px;
+  text-align: center;
+}
+.main-container p {
+  font-size: 2.8rem;
+}
+.main-container h5 {
+  font-size: 1.6rem;
+  color: hsl(150deg, 100%, 66%);
+}
+
+.images {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+}
+.images .img2 {
+  background-color: hsl(150deg, 100%, 66%);
+  width: auto;
+  padding: 20px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -50px;
+  cursor: pointer;
+}
+.images .img2 .dice {
+  width: 30px;
+}
+
+@media (max-width: 450px) {
+  .main-container {
+    font-size: 1.6rem;
+    width: 320px;
+    height: auto;
+  }
+  .main-container .images {
+    width: 320px;
+    right: 15px;
+  }
+  .main-container .images img {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
